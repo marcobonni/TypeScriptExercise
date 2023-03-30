@@ -25,8 +25,9 @@ function languagesSpoken(country: string, language1: string, language2?: string)
     console.log(`The languages spoken in ${country} are:`);
 
     console.log(language1);
-
+    if (typeof language2 !== undefined) {
     console.log(language2);
+    }
 }
 
 languagesSpoken("Colombia", "Spanish", "English");
