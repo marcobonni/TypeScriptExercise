@@ -17,7 +17,7 @@ const currencies2: Array<string> = ["EUR", "COP", "INR"];
 // Add a type annotation for this array.
 // Use the array literal type syntax: type[]
 
-const populations1 : Type[number] = [50_372_424, 1_352_642_280, 211_400_708];
+const populations1 : number[] = [50_372_424, 1_352_642_280, 211_400_708];
 
 // Add a type annotation for this array.
 // Use the generic interface type `Array`: Array<type>
