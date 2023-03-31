@@ -8,12 +8,12 @@
 
 interface Country<Type>    {
     name: Type;
-    languages: unknown;
+    languages: Type[];
 }
 
 const languagesObj1: Country<string> = {
     name: "New Zealand",
-    languages: "English, Māori"
+    languages: ["English, Māori"]
 };
 
 console.log(languagesObj1.languages);
